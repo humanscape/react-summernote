@@ -1,7 +1,7 @@
-# react-summernote
-[Summernote](https://github.com/summernote/summernote) adaptation for react (Headache free)
+# react-summernote-bs4
+[Summernote](https://github.com/summernote/summernote) adaptation for react, compatible with [Bootstrap 4](https://getbootstrap.com/) (Headache free)
 
-[![npm version](https://badge.fury.io/js/react-summernote.svg)](https://www.npmjs.com/package/react-summernote)
+[![npm version](https://badge.fury.io/js/%40humanscape%2Freact-summernote-bs4.svg)
 
 
 ### Getting Started
@@ -9,7 +9,7 @@
 #### Install
 
 ```
-npm install react-summernote
+npm install @humanscape/react-summernote-bs4
 ```
 
 #### Configure Webpack
@@ -27,9 +27,9 @@ new webpack.ProvidePlugin({
 
 ```javascript
 import React, { Component } from 'react';
-import ReactSummernote from 'react-summernote';
-import 'react-summernote/dist/react-summernote.css'; // import styles
-import 'react-summernote/lang/summernote-ru-RU'; // you can import any other locale
+import ReactSummernote from '@humanscape/react-summernote-bs4';
+import '@humanscape/react-summernote-bs4/dist/react-summernote.css'; // import styles
+import '@humanscape/react-summernote-bs4/lang/summernote-ru-RU'; // you can import any other locale
 
 // Import bootstrap(v4) dependencies
 import 'bootstrap/js/modal';
