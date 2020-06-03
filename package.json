@@ -1,6 +1,6 @@
 {
   "name": "@humanscape/react-summernote-bs4",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Summernote (Super simple WYSIWYG editor) adaptation for react",
   "main": "./dist/react-summernote.js",
   "repository": {
@@ -29,13 +29,13 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "bootstrap": "^4.3.2",
+    "bootstrap": "^4.4.1",
     "codemirror": "^5.26.0",
     "prop-types": "^15.5.10",
     "summernote": "^0.8.15"
   },
   "peerDependencies": {
-    "bootstrap": "^4.3.2",
+    "bootstrap": "^4.4.1",
     "jquery": "^2.2.0 || ^3.0.0",
     "react": "^15.0.0",
     "react-dom": "*"
