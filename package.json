@@ -1,15 +1,14 @@
 {
-  "name": "react-summernote",
+  "name": "react-summernote-bs4",
   "version": "2.0.0",
   "description": "Summernote (Super simple WYSIWYG editor) adaptation for react",
   "main": "./dist/react-summernote.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vnkitaev/react-summernote.git"
+    "url": "https://github.com/humanscape/react-summernote-bs4.git"
   },
   "scripts": {
-    "build": "webpack",
-    "install-modules": "yarn"
+    "build": "webpack"
   },
   "keywords": [
     "summernote",
@@ -30,12 +29,13 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
+    "bootstrap": "^4.3.2",
     "codemirror": "^5.26.0",
     "prop-types": "^15.5.10",
     "summernote": "^0.8.15"
   },
   "peerDependencies": {
-    "bootstrap": "^3.3.6",
+    "bootstrap": "^4.3.2",
     "jquery": "^2.2.0 || ^3.0.0",
     "react": "^15.0.0",
     "react-dom": "*"

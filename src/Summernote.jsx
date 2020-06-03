@@ -1,7 +1,7 @@
 /* global $ */
 
-import 'summernote/dist/summernote';
-import 'summernote/dist/summernote.css';
+import 'summernote/dist/summernote-bs4';
+import 'summernote/dist/summernote-bs4.css';
 import 'codemirror/lib/codemirror.css';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
