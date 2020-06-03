@@ -1,6 +1,6 @@
 {
   "name": "@humanscape/react-summernote-bs4",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Summernote (Super simple WYSIWYG editor) adaptation for react",
   "main": "./dist/react-summernote.js",
   "repository": {
